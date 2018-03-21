@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "id": "camera-1", //摄像头ID
+      "rtsp": "rtsp://<port>:<ip>", //流地址
+      "detect_x": 220, //检测区域左上角坐标的x值
+      "detect_y": 420, //检测区域左上角坐标的y值
+      "detect_width": 200, //检测区域的宽度
+      "detect_height": 40, //检测区域的高度
+      "belt_y": 440, //选取的皮带位置坐标的y值
+      "belt_width": 150, //选取的皮带宽度
+      "thresh": 140 //检测灵敏度
+    },
+    {
+      "id": "camera-2",
+      "rtsp": "rtsp://<port>:<ip>",
+      "detect_x": 350,
+      "detect_y": 400,
+      "detect_width": 1300,
+      "detect_height": 120,
+      "belt_y": 470,
+      "belt_width": 1150,
+      "thresh": 140
+    }
+  ]
+}
